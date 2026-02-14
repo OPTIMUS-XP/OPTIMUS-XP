@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie & Tunes | OPTIMUS-XP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">🎬 MOVIE & 🎵 TUNES</h1>
+            <div class="nav-links">
+                <a href="#movies">Movies</a>
+                <a href="#music">Music</a>
+                <a href="#trending">Trending</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Your Entertainment Hub</h1>
+        <p>Discover the best in movies and music</p>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search movies or music...">
+            <button onclick="search()">🔍 Search</button>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section id="movies" class="section">
+        <h2 class="section-title">🎥 Popular Movies</h2>
+        <div class="card-container" id="moviesContainer">
+            <!-- Movies will be added here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section">
+        <h2 class="section-title">🎵 Trending Music</h2>
+        <div class="card-container" id="musicContainer">
+            <!-- Music will be added here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Movie & Tunes by OPTIMUS-XP</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
