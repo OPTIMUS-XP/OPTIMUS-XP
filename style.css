@@ -1,0 +1,56 @@
+.entertainment-hub {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    background-color: #3097D1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+}
