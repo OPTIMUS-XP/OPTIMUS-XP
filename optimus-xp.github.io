@@ -32,14 +32,6 @@
             text-decoration: none;
             border: 2px solid white;
             padding: 10px 30px;
-            border-radius: 5px;
-            margin: 10px;
-            display: inline-block;
-            transition: all 0.3s;
-        }
-        a:hover {
-            background: white;
-            color: #667eea;
         }
     </style>
 </head>
