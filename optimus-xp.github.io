@@ -51,7 +51,8 @@
         <div class="skills">
             <span class="skill-tag">Python</span>
             <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
             <span class="skill-tag">React</span>
         </div>
         
